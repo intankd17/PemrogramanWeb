@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Kalkulator </title>
+</head>
+<script language="javascript">
+
+	function tambah(){
+	var bil1=parseFloat(document.ffrom.bil1.value);
+	var bil2=parseFloat(document.ffrom.bil2.value);
+	if (isNaN (bil1) == false && isNaN(bil2) == false){
+	var hasil=bil1+bil2;
+	document.ffrom.hasil.value=hasil;
+	}else{
+	alert("MASUKKAN INPUTAN BERUPA ANGKA SAJA!")}
+	}
+	function kurang(){
+	var bil1=parseFloat(document.ffrom.bil1.value);
+	var bil2=parseFloat(document.ffrom.bil2.value);
+	if (isNaN (bil1) == false && isNaN(bil2) == false){
+	var hasil=bil1-bil2;
+	document.ffrom.hasil.value=hasil;
+	}else{
+	alert("Masukkan inputan berupa angka saja!")}
+	}
+	function kali(){
+	var bil1=parseFloat(document.ffrom.bil1.value);
+	var bil2=parseFloat(document.ffrom.bil2.value);
+	if (isNaN (bil1) == false && isNaN(bil2) == false){
+	var hasil=bil1*bil2;
+	document.ffrom.hasil.value=hasil;
+	}else{
+	alert("Masukkan inputan berupa angka saja")}
+	}
+	function bagi(){
+	var bil1=parseFloat(document.ffrom.bil1.value);
+	var bil2=parseFloat(document.ffrom.bil2.value);
+	if (isNaN (bil1) == false && isNaN(bil2) == false){
+	var hasil=bil1/bil2;
+	document.ffrom.hasil.value=hasil;
+	}else{
+	alert("Masukkan inputan berupa angka saja")}
+	}
+
+</script>
+<body>
+	<form name="ffrom">
+		<center>
+			<h1> Kalkulator Sederhana JavaScript</h1>
+			<br>
+			<p> bil 1 : <input type="text" name="bil1" placeholder="Masukkan Bilangan 1"> </p>
+			<p> bil 2 : <input type="text" name="bil2" placeholder="Masukkan Bilangan 2"> </p>
+			<p> operasi hitung : <input type="button" value="+" onclick="tambah()">
+			<input type="button" value="-" onclick="kurang()">
+			<input type="button" value="*" onclick="kali()">
+			<input type="button" value="/" onclick="bagi()"> </p>
+			<input type="text" name="hasil" disabled="true" placeholder="Hasil">
+			<input type="reset" value="reset">
+		</center>
+	</form>
+</body>
+</html>
