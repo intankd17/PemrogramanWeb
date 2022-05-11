@@ -1,4 +1,4 @@
-# Ni Putu Intan Komaladewi
-20082010134
-Sistem Informasi
-UPN "Veteran" Jawa Timur
+# Ni Putu Intan Komaladewi <br>
+20082010134 <br>
+Sistem Informasi <br>
+UPN "Veteran" Jawa Timur <br>
