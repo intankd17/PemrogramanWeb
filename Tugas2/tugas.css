@@ -1,0 +1,62 @@
+*{
+	margin: 5px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+body{
+	background-image: url(background.jfif);
+	background-repeat: no-repeat;
+	background-position: relative;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+ul{
+	float: right;
+	list-style: none;
+	margin-top: 50px;
+}
+ul li {
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #000000;
+	padding: 10px 40px;
+	border: 2px solid;
+	transition: 1.5s;
+	margin-top: 10px;
+}
+ul li a:hover{
+	background-color: #1E90FF;
+	color: #FFFF00;
+}
+.logo img{
+	float: left;
+	width: 180px;
+	height: auto;
+}
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+.datadiri{
+	font-family: sans-serif;
+	color: #000000;
+	border-collapse: collapse;
+}
+.datadiri, tr, td{
+	border: 3px solid;
+	font-size: 25px;
+	padding: 10px 20px;
+}
+.title{
+	position: absolute;
+	top: 90%;
+	left: 25%;
+	transform: translate(-50%;-50%);
+}
+.title h1{
+	font-family: sans-serif;
+	color: #000000;
+	font-size: 45px;
+}

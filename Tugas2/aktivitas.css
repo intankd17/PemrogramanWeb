@@ -1,0 +1,71 @@
+* {
+  margin: 5px;
+  padding: 0px;
+  font-family: sans-serif;
+}
+body {
+  background-image: url(background.jfif);
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+ul {
+  float: right;
+  list-style: none;
+  margin-top: 50px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px 40px;
+  border: 2px solid;
+  transition: 1.5s;
+  margin-top: 10px;
+}
+ul li a:hover {
+  background-color: #d3d3d3;
+  color: #0d1f5c;
+}
+.logo img {
+  float: left;
+  width: 180px;
+  height: auto;
+}
+.main {
+  max-width: 1200px;
+  margin: auto;
+}
+.pengalaman {
+  color: #ffffff;
+  margin-left: 300px;
+}
+.pengalamanorganisasi {
+  font-family: sans-serif;
+  color: #ffffff;
+  border-collapse: collapse;
+}
+.pengalamanorganisasi,
+tr,
+td {
+  border: 3px solid;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-left: 325px;
+}
+.title {
+  position: absolute;
+  top: 85%;
+  left: 1%;
+  transform: translate(-50% -50%);
+}
+.title h1 {
+  font-family: garamond;
+  color: #ffffff;
+  font-size: 20px;
+  font-style: normal;
+  text-align: center;
+}
